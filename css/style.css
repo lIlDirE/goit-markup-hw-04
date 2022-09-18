@@ -204,28 +204,43 @@ img {
 	color: var(--four-text-color);
 }
 
-.main-about-text {
-	width: 270px;
-}
-
-.main-about-text:not(:first-child) {
-	margin-left: 30px;
-}
-
-.main-about {
-	margin-top: 95px;
+.main-about-ul {
 	margin-bottom: 95px;
 	width: 1170px;
 	min-height: 100px;
 	align-items: flex-start;
 	display: flex;
 	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-about-svg{
+	width: 1170px;
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-about-svg-item:not(:first-child){
+	margin-left: 30px;
+}
+
+.main-about-svg-item{
+	width: 270px;
+	height: 120px;
+	background-color: var(--four-text-color);
+	outline: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .about-text{
 	font-weight: 700;
-	line-height: 16px;
 	font-size: 14px;
+	line-height: 16px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
