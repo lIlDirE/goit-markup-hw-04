@@ -8,7 +8,7 @@
 
 }
 
-a {
+* {
 	text-decoration: none;
 	outline: 0;
 }
@@ -29,6 +29,7 @@ header,
 main {
 	font-family: 'Roboto', sans-serif;
 	color: var(--first-text-color);
+	margin: 0;
 }
 
 img {
@@ -456,7 +457,8 @@ img {
 	background-color: var(--hero-text-color);
 	color: var(--four-text-color);
 	display: flex;
-	align-items: center
+	align-items: center;
+	padding: 0;
 }
 
 .fotter-left-container{
